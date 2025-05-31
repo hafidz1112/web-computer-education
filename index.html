@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Komputer Education</title>
     <link rel="icon" href="gambar/Maskot_CE-removebg-preview.png" type="image/png">
     <link rel="stylesheet" href="style.css" />
@@ -20,15 +20,21 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
     />
-    <script src="main.js"></script>
   </head>
   <body>
     <header class="header-nav">
-      <a href="#" class="logo">
-        <img class="logo-ce" src="gambar/Logo_CE-removebg-preview.png" alt="">
-      </a>
       
-      <ul class="navbar">
+      <div>
+        <a href="#" class="logo">
+          <img class="logo-ce" src="gambar/Logo_CE-removebg-preview.png" alt="">
+        </a>
+      </div>
+
+      <div id="menu-icon" class="menu-icon">
+          <i class="ph ph-list"></i>
+      </div>
+      
+      <ul class="navbar hidden" id="menu-list">
         <li><a class="nav-home" href="#home">Home</a></li>
         <li><a href="#about">About Us</a></li>
         <li><a href="#product">Divisi</a></li>
@@ -40,15 +46,9 @@
         <button class="login">
           <a href="login.html">Login</a>
         </button>
-        <div class="menu-icon">
-          <i class="ph ph-list"></i>
-        </div>
+        
       </div>
       
-      
-      <div class="search-box">
-        <input type="search" name="" id="" placeholder="search here..." />
-      </div>
     </header>
     <!-- header end -->
     <!-- home page -->
@@ -57,9 +57,9 @@
       <div class="animasi-satu">
         <img src="gambar/coreldraw.png" alt="">
       </div>
-      <img src="gambar/coding.png" class="animasi-2" alt="">
-      <img src="gambar/video.png" class="animasi-3" alt="">
-      <img src="gambar/cameraa.png" class="animasi-4" alt="">
+        <img src="gambar/coding.png" class="animasi-2" alt="">
+        <img src="gambar/video.png" class="animasi-3" alt="">
+        <img src="gambar/cameraa.png" class="animasi-4" alt="">
       <div class="home-text">
         <h1>Welcome to<br />Computer Education</h1>
         <p>
