@@ -192,6 +192,7 @@ header ul {
 
 .logo-mantul {
   border-radius: 50%;
+  padding-right: 10px;
   /* position: absolute; */
   /* right: 22.5%;
   bottom: 26%; */
@@ -484,15 +485,19 @@ header {
 
   
   
-  .navbar.active {
-    display: flex;
-  }
+.navbar.active {
+  display: flex;
+}
 
   .menu-icon {
     display: block;
     font-size: 26px;
     color: green;
     cursor: pointer;
+  }
+
+  .home-container {
+    justify-content: center;
   }
 
   .rotasi-img {
@@ -505,18 +510,21 @@ header {
   }
   .rotul {
     position: relative;
-    left: -25%;
+    justify-content: center;
+    padding-right: 10px;
   }
   .home-text h1, p {
     font-size: 40px;
     text-align: center;
     position: relative;
-    left: -18%;
+    ;
+  }
+  .about-text h2 {
+    font-size: 30px;
   }
   .animasi-satu>img {
     position: absolute;
     bottom: 7%;
-    left: -20%;
     
   }
 }
