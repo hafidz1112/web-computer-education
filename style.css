@@ -513,6 +513,9 @@ header {
     justify-content: center;
     padding-right: 10px;
   }
+  .rotasi-img {
+    width: 270px;
+  }
   .home-text h1, p {
     font-size: 40px;
     text-align: center;
