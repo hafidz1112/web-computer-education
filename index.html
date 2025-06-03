@@ -20,6 +20,7 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   </head>
   <body>
     <header class="header-nav">
@@ -37,7 +38,7 @@
       <ul class="navbar hidden" id="menu-list">
         <li><a class="nav-home" href="#home">Home</a></li>
         <li><a href="#about">About Us</a></li>
-        <li><a href="#product">Divisi</a></li>
+        <li><a href="#divisi">Divisi</a></li>
         <li><a href="#customers">Pengurus</a></li>
       </ul>
 
@@ -63,11 +64,8 @@
       <div class="home-text">
         <h1>Welcome to<br />Computer Education</h1>
         <p>
-          Lorem ipsum dolor sit amet.
+          Salam Teknologi
         </p>
-        <div class="gambar-container">
-          <img src="gambar/model-removebg-preview.png" class="pendaftaran" alt="">
-        </div>
       </div>
       
       <div class="rotul">
@@ -93,63 +91,60 @@
       </div>
     </section>
 <!-- About End -->
-    <!-- product -->
-    <section class="products" id="products"> 
-      <div class="heading">
-        <h2>Our Product</h2>
+    <!-- Learning start -->
+    <section class="section-learn" id="divisi">
+      <div class="text-learn">
+        <h1>Belajar apa aja sih di CE?</h1>
+        <div class="garis"></div>
+        <p>Bergabung dengan Computer Education bukan sekadar menjadi bagian dari organisasi—ini adalah perjalanan untuk tumbuh, belajar, dan berkembang bersama. Di sini, kamu akan mempelajari dasar-dasar hingga keterampilan lanjutan dalam dunia teknologi,</p>
       </div>
-      <!-- container -->
-      <div class="products-container">
-        <div class="box">
-          <img src="gambar/p1.png" alt="" />
-          <h3>Americano pure</h3>
-          <div class="content">
-            <span>$25</span>
-            <a href="#">Add to Card</a>
+      <div class="swiper learn-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="gambar/programing-learn.jpg" alt="Programming">
+            <h2>Programming</h2>
           </div>
-        </div>
-        <div class="box">
-          <img src="gambar/p2.png" alt="" />
-          <h3>Americano pure</h3>
-          <div class="content">
-            <span>$25</span>
-            <a href="#">Add to Card</a>
+          <div class="swiper-slide">
+            <img src="gambar/desainGrafis-learn.jpg" alt="Desain Grafis">
+            <h2>Desain Grafis</h2>
           </div>
-        </div>
-        <div class="box">
-          <img src="gambar/p3.png" alt=""    . />
-          <h3>Americano pure</h3>
-          <div class="content">
-            <span>$25</span>
-            <a href="#">Add to Card</a>
+          <div class="swiper-slide">
+            <img src="gambar/fotografer-learn.jpg" alt="Fotografi">
+            <h2>Fotografi</h2>
           </div>
-        </div>
-        <div class="box">
-          <img src="gambar/p4.png" alt="" />
-          <h3>Americano pure</h3>
-          <div class="content">
-            <span>$25</span>
-            <a href="#">Add to Card</a>
+          <div class="swiper-slide">
+            <img src="gambar/editingVideo-learnjpg.jpg" alt="Fotografi">
+            <h2>Video Editing</h2>
           </div>
-        </div>
-        <div class="box">
-          <img src="gambar/p5.png" alt="" />
-          <h3>Americano pure</h3>
-          <div class="content">
-            <span>$25</span>
-            <a href="#">Add to Card</a>
+          <div class="swiper-slide">
+            <img src="gambar/SistemOperasi-learn.jpg" alt="Sistem Operasi">
+            <h2>Sistem Operasi</h2>
           </div>
+          
         </div>
-        <div class="box">
-          <img src="gambar/p6.png" alt="" />
-          <h3>Americano pure</h3>
-          <div class="content">
-            <span>$25</span>
-            <a href="#">Add to Card</a>
-          </div>
-        </div>
+        
+        <!-- Optional: tombol navigasi -->
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+    
+        <!-- Optional: pagination -->
+        <div class="swiper-pagination"></div>
+          
+      </div>
+      <div class="btn-learn">
+        <a href="#learn">Belajar Sekarang</a>
+      </div>
+      <div class="model-learn">
+        <img src="gambar/model-removebg-preview.png" alt="">
+        <p>Yuk mari belajar bersama kita</p>
       </div>
     </section>
+    
+    <!-- Learning End -->
+    
     <script src="main.js"></script>
+    <!-- Sebelum </body> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
   </body>
 </html>
