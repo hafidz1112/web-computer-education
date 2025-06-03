@@ -360,6 +360,8 @@ header ul {
   grid-template-columns: repeat(auto-fit, minMax(17rem, auto));
   gap: 1.5rem;
   background-color: rgb(95, 244, 95);
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
 }
 .about-img img {
   width: 400px;
@@ -633,5 +635,14 @@ header ul {
     text-align: start;
     padding: 5px;
     font-size: 15px;
+  }
+  /* .model-learn img {
+    position: fixed;
+    left: -8%;
+    bottom: -200%;
+    z-index: 1;
+  } */
+  .model-learn p {
+    font-size: 20px;
   }
 }
