@@ -30,3 +30,28 @@ window.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+window.addEventListener('DOMContentLoaded', function () {
+    const swiper = new Swiper('.slider-pengurus', {
+        wrapperClass: 'slider-pengurus-wrapper',
+        slideClass: 'slider-pengurus-slide',
+        loop: true,
+        navigation: {
+            nextEl: '.slider-pengurus .swiper-button-next',
+            prevEl: '.slider-pengurus .swiper-button-prev',
+        },
+        pagination: {
+            el: '.slider-pengurus .swiper-pagination',
+            clickable: true,
+        },
+        slidesPerView: 2,
+        spaceBetween: 20,
+        breakpoints: {
+            0: {
+                slidesPerView: 2
+            },
+            768: {
+                slidesPerView: 5 
+            }
+        }
+    });
+});
